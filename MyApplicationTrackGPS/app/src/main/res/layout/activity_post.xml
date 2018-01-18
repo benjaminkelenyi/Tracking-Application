@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.benjaminkelenyi.myapplicationtrackgps.Post">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="85dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Surname"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="85dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Age"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="85dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="85dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="85dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="POST"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="148dp"
+        tools:ignore="MissingConstraints"
+        android:onClick="OnReg"/>
+</android.support.constraint.ConstraintLayout>

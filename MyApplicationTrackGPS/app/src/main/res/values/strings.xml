@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApplicationTrackGPS</string>
+    <string name="title_activity_post">Post</string>
+    <string name="title_activity_send_data">SendData</string>
+</resources>
